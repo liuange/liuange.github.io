@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Angela Liu</title>
-    <link>https://liuange.github.io/</link>
-    <description>Recent content on Angela Liu</description>
+    <title>Projects on Angela Liu</title>
+    <link>https://liuange.github.io/projects/</link>
+    <description>Recent content in Projects on Angela Liu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Angela Liu ©</copyright>
-    <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://liuange.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://liuange.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Theme Documentation</title>
       <link>https://liuange.github.io/projects/project2/</link>
@@ -33,15 +33,6 @@
       
       <guid>https://liuange.github.io/projects/project3/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://liuange.github.io/about/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://liuange.github.io/about/</guid>
-      <description>Angela Liu (she / her)</description>
     </item>
     
   </channel>

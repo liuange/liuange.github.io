@@ -1,11 +1,11 @@
 ---
-title: "Markdown Syntax"
+title: "Rental Properties in Richmond, CA"
 date: 2021-08-01
-draft: true
-project_tags: ["markdown"]
+draft: false
+project_tags: ["python", "pandas", "geospatial"]
 status: "evergreen"
 weight: 2
-summary: "Example of markdown syntax you can use to edit your content"
+summary: "What characteristics best predict whether a property is a rental?"
 links:
     external_link:
         text: "Some external link"

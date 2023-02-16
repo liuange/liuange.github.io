@@ -1,11 +1,11 @@
 ---
-title: "Markdown Syntax"
+title: "Bike Share in the Time of COVID-19"
 date: 2021-08-01
-draft: true
-project_tags: ["markdown"]
+draft: false
+project_tags: ["python", "pandas", "geospatial"]
 status: "evergreen"
 weight: 2
-summary: "Example of markdown syntax you can use to edit your content"
+summary: "How did bike share activity change in San Francisco during the COVID-19 pandemic?"
 links:
     external_link:
         text: "Some external link"

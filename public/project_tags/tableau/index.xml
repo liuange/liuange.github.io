@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tableau on Angela Liu</title>
+    <link>https://liuange.github.io/project_tags/tableau/</link>
+    <description>Recent content in tableau on Angela Liu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Angela Liu ©</copyright>
+    <lastBuildDate>Thu, 28 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://liuange.github.io/project_tags/tableau/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TikTok UnWrapped</title>
+      <link>https://liuange.github.io/projects/tiktok/</link>
+      <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://liuange.github.io/projects/tiktok/</guid>
+      <description>Leveraging individual social media activity for algorithmic education</description>
+    </item>
+    
+  </channel>
+</rss>

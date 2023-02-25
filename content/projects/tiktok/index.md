@@ -19,6 +19,8 @@ How much do you really know about your social media data?
 
 And did you know for most websites, you can directly access this data? 
 
+![alt text](ttuw_screenshot.png "Website Screenshot")
+
 
 [Launch Project Website](https://ochan1.github.io/info247-sp22-tiktok-unwrapped/website/)
 

@@ -7,7 +7,7 @@ copyright = "Angela Liu ©"
 
 [params]
   name = "Angela Liu"
-  description = "Red panda living in the eastern Himalayas."
+  description = " "
   initials = "AL"
   googleAnalytics = ""
 
@@ -35,7 +35,7 @@ copyright = "Angela Liu ©"
     weight = 2
   
   [[menu.main]]
-    name = "Digital Garden"
+    name = "Posts"
     url = "/garden/"
     weight = 3
 

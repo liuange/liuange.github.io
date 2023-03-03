@@ -9,6 +9,15 @@
     <copyright>Angela Liu ©</copyright>
     <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://liuange.github.io/project_tags/geospatial/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Automated Classification of Municipal Zoning Codes</title>
+      <link>https://liuange.github.io/projects/zoning/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://liuange.github.io/projects/zoning/</guid>
+      <description>Can we use natural language processing to label the allowed residential uses of zoning districts in California?</description>
+    </item>
+    
+    <item>
       <title>Bike Share in the Time of COVID-19</title>
       <link>https://liuange.github.io/projects/baywheels/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>

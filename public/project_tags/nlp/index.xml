@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Angela Liu ©</copyright>
-    <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://liuange.github.io/project_tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://liuange.github.io/project_tags/nlp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automated Classification of Municipal Zoning Codes</title>
       <link>https://liuange.github.io/projects/zoning/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://liuange.github.io/projects/zoning/</guid>
       <description>Can we use natural language processing to label the allowed residential uses of zoning districts in California?</description>

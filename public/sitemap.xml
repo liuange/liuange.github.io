@@ -2,58 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://liuange.github.io/projects/tiktok/</loc>
+    <loc>https://angeliu.com/projects/capstone/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://angeliu.com/projects/tiktok/</loc>
     <lastmod>2022-04-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liuange.github.io/projects/zoning/</loc>
+    <loc>https://angeliu.com/projects/zoning/</loc>
     <lastmod>2022-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liuange.github.io/projects/baywheels/</loc>
+    <loc>https://angeliu.com/projects/baywheels/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liuange.github.io/projects/richmond/</loc>
+    <loc>https://angeliu.com/projects/richmond/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liuange.github.io/</loc>
-    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+    <loc>https://angeliu.com/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liuange.github.io/project_tags/data-viz/</loc>
-    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+    <loc>https://angeliu.com/projects/</loc>
+    <lastmod>2023-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://liuange.github.io/project_tags/</loc>
-    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+    <loc>https://angeliu.com/about/</loc>
   </url><url>
-    <loc>https://liuange.github.io/projects/</loc>
-    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+    <loc>https://angeliu.com/resume/</loc>
   </url><url>
-    <loc>https://liuange.github.io/project_tags/python/</loc>
-    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+    <loc>https://angeliu.com/categories/</loc>
   </url><url>
-    <loc>https://liuange.github.io/project_tags/tableau/</loc>
-    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liuange.github.io/project_tags/geospatial/</loc>
-    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liuange.github.io/project_tags/nlp/</loc>
-    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liuange.github.io/project_tags/pandas/</loc>
-    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liuange.github.io/library/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liuange.github.io/garden/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liuange.github.io/about/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liuange.github.io/resume/</loc>
-  </url><url>
-    <loc>https://liuange.github.io/garden_tags/</loc>
-  </url><url>
-    <loc>https://liuange.github.io/library_tags/</loc>
+    <loc>https://angeliu.com/tags/</loc>
   </url>
 </urlset>

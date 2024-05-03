@@ -1,66 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Angela Liu</title>
-    <link>https://liuange.github.io/</link>
-    <description>Recent content on Angela Liu</description>
+    <title>Home on Angela Liu</title>
+    <link>https://angeliu.com/</link>
+    <description>Recent content in Home on Angela Liu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Angela Liu ©</copyright>
-    <lastBuildDate>Thu, 28 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://liuange.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>TikTok UnWrapped</title>
-      <link>https://liuange.github.io/projects/tiktok/</link>
-      <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://liuange.github.io/projects/tiktok/</guid>
-      <description>Leveraging individual social media activity for algorithmic education</description>
-    </item>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate>
     
-    <item>
-      <title>Automated Classification of Municipal Zoning Codes</title>
-      <link>https://liuange.github.io/projects/zoning/</link>
-      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://liuange.github.io/projects/zoning/</guid>
-      <description>Can we use natural language processing to label the allowed residential uses of zoning districts in California?</description>
-    </item>
+	<atom:link href="https://angeliu.com/index.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>Bike Share in the Time of COVID-19</title>
-      <link>https://liuange.github.io/projects/baywheels/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://liuange.github.io/projects/baywheels/</guid>
-      <description>How did bike share activity change in San Francisco during the COVID-19 pandemic?</description>
-    </item>
     
-    <item>
-      <title>Rental Properties in Richmond, CA</title>
-      <link>https://liuange.github.io/projects/richmond/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://liuange.github.io/projects/richmond/</guid>
-      <description>What characteristics best predict whether a property is a rental?</description>
-    </item>
     
-    <item>
-      <title>About</title>
-      <link>https://liuange.github.io/about/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://liuange.github.io/about/</guid>
-      <description>Angela Liu (she / her)</description>
-    </item>
     
-    <item>
-      <title>Angela Liu</title>
-      <link>https://liuange.github.io/resume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://liuange.github.io/resume/</guid>
-      <description></description>
-    </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
   </channel>
 </rss>

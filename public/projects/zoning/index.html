@@ -1,81 +1,41 @@
-<!doctype html>
-<html lang="en-us"><head>
-    <title>Angela Liu</title>
+<!DOCTYPE html>
+<html lang="en"><head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Angela Liu | Data Engineer">
+    
+    <link rel="shortcut icon" href="https://angeliu.com/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
 
-    
-    
-    
-    <link rel="stylesheet" href="/css/theme.min.css">
-
-    
-    
-    
-
-    
+    <link rel="canonical" href="https://angeliu.com/projects/zoning/" />
+    <title>Automated Classification of Municipal Zoning Codes</title>
 </head>
-<body>
-        <div id="content" class="mx-auto"><header class="container mt-sm-5 mt-4 mb-4 mt-xs-1">
-    <div class="row">
-        
-        <div class="col-12 text-center">
-        
-            <h2 class="m-0 mb-2 mt-4">
-                <a href="/" class="text-decoration-none">
-                    
-                        Your Name
-                    
-                </a>
-            </h2>
-            <p class="text-muted mb-1">
-                
-                    Your Creative Subtitle
-                
-            </p>
-            <ul id="nav-links" class="list-inline mb-2">
-                
-                
-                    <li class="list-inline-item">
-                        <a class="badge badge-white " href="/projects/" title="">Projects</a>
-                    </li>
-                
-                    <li class="list-inline-item">
-                        <a class="badge badge-white " href="/resume/" title="">Resume</a>
-                    </li>
-                
-                    <li class="list-inline-item">
-                        <a class="badge badge-white " href="/garden/" title="">Posts</a>
-                    </li>
-                
-                    <li class="list-inline-item">
-                        <a class="badge badge-white " href="/about/" title="">About</a>
-                    </li>
-                
-            </ul>
-            <ul id="nav-social" class="list-inline">
-                
-                    <li class="list-inline-item mr-3">
-                        <a href="" target="_blank">
-                            <i class=" text-muted"></i>
-                        </a>
-                    </li>
-                
-                    <li class="list-inline-item mr-3">
-                        <a href="" target="_blank">
-                            <i class=" text-muted"></i>
-                        </a>
-                    </li>
-                
-            </ul>
-        </div>
-    </div>
-    <hr />
+<body><header id="banner">
+    <h2><a href="https://angeliu.com/">Angela Liu</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/projects/" title="projects">projects</a>
+            </li><li>
+                <a href="/resume/" title="resume">resume</a>
+            </li><li>
+                <a href="/about/" title="about">about</a>
+            </li><li>
+                <a href="https://github.com/liuange" title="github">github</a>
+            </li>
+        </ul>
+    </nav>
 </header>
-<div class="container">
-    <div class="pl-sm-4 ml-sm-5">
-        <p>I&rsquo;m working on showing unfinished work for faster iteration, so I&rsquo;m leaning into the idea of a &ldquo;digital garden&rdquo; that came with this web theme. Here&rsquo;s a current data science project I&rsquo;m working on as part of my Natural Language Processing course, INFO 259 with Prof. David Bamman.</p>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Automated Classification of Municipal Zoning Codes</h1>
+        <div>
+                <time>March 1, 2022</time>
+            </div>
+    </header><p>Can we use natural language processing to label the allowed residential uses of zoning districts in California?
+Data science project for INFO 259 Natural Language Processing with Prof. David Bamman.</p>
 <hr>
 <h1 id="problem">The Problem</h1>
 <p>Zoning districts define what kind of building structures or uses are allowed on different parcels of land. These districts are officially established by cities in the text of municipal codes. Our task is to categorize cities’ highly granular zoning districts into <strong>three distinct categories (single-family, multifamily, and non-residential)</strong> based on the expressed purpose statements of the zoning definition.</p>
@@ -86,21 +46,10 @@
 </ul>
 <h1 id="current">Currently working on</h1>
 <p>The scraping strategy: the structure of municipal code pages vary. How can we identify these intent/purpose paragraphs efficiently?</p>
+</article>
 
-    </div>
-
-    
-
-            </div>
-        </div><footer class="text-center pb-1">
-    <small class="text-muted">
-        
-            Angela Liu ©
-        
-        <br>
-        Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a>
-        and <a href="https://github.com/austingebauer/devise" target="_blank">Devise</a>
-    </small>
+        </main><footer id="footer">
+    Copyright © 2024 Angela Liu
 </footer>
 </body>
 </html>

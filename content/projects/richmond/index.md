@@ -1,118 +1,45 @@
 ---
-title: "Rental Properties in Richmond, CA"
-date: 2021-08-01
+title: "Identifying Rental Properties in Richmond, CA"
+date: 2023-03-01
 draft: false
-project_tags: ["python", "pandas", "geospatial"]
+project_tags: ["python", "pandas", "geospatial", "arcGIS"]
 weight: 2
 ---
 
-"What characteristics best predict whether a property is a rental?"
+Community Land Trusts (CLTs) like Richmond LAND aim to address the affordable housing crisis through community-controlled land acquisition and housing development. CLTs have limited resources for parcel acquisition; therefore, it is important to understand the landscape of rental properties to inform Richmond LAND policy making decisions. We wanted to identify characteristics correlated with existing rentals
+
+### Research Question
+
+What characteristics -- community, demographic, and physical housing characteristics -- best predict whether a property is a rental in Richmond, CA?
+
+### Data Sources
+
+- Richmond LAND-provided parcel dataset, a combination of Richmond City Parcel Data, Rent Board Data, and organization data
+- Census Tract demographic data
+- Zillow API Parcel Data
+
+### Methods
+
+1. Limit dataset to Residential Parcels in Richmond using ArcGIS
+2. Created geospatial variables/features such as zone, neighborhood identifiers, distance to Parks, Schools, and Toxic Waste Sites.
+3. Created definition of "Rental Property" based on available characteristics:
+
+- Landlord ID exists
+- Site Address that does not match Owner Address, or
+- Rent Board Status indicates Owner Occupied or Outside City Boundaries
+- Number of Units Owned by Landlord less than a certain threshold
+
+4. Linked parcels to ancillary variables: housing characteristics from Zillow, community infrastructure, and Census Tract demographics/income
+5. Identified variables that differ between rental and owner-occupied
+6. Calculate correlations and odds ratios between these variables using logistic regression
+
+### Conclusions
+
+Several characteristics stood out as statistical differentiators of rental vs. owner-occupied housing. Among the strongest were **[municipal zones](https://www.ci.richmond.ca.us/3379/Zoning-Ordinance)**: parcels located in commercial or medium-to-high density zones were more likely to contain rentals. Additionally, we identified five specific neighborhoods that were more likely to contain rental housing.
+
+Demographic characteristics also were predictive of owner-occupied housing: typically these were in Census tracts with a higher white population and increased income.
 
 ---
 
-# Heading level 1
-
-## Heading level 2 {#custom-id-2}
-
-### Heading level 3
-
-#### Heading level 4
-
----
-
-This is the first line **with bold text**.  
-This is the second line _with italic text_.  
-This is the third line **_with bold italic text_**.  
-This is the fourth line ~~with strikethrough text~~.  
-This is the fifth line [with a link to heading level 2](#custom-id-2).  
-This is the sixth line with emoji 🥳.
-
-First Term
-: This is the definition of the first term.
-
-Second Term
-: This is one definition of the second term.
-: This is another definition of the second term.
-
-Here's a simple footnote,[^1] and here's a longer one.[^bignote]
-
-[^1]: This is the first footnote.
-[^bignote]: Here's one with multiple paragraphs and code.
-
-    Indent paragraphs to include them in the footnote.
-
-    `{ my code }`
-
-    Add as many paragraphs as you like.
-
----
-
-> This is a blockquote.
-
-> This is a blockquote
->
-> with multiple paragraphs
-
-> This is a
->
-> > nested blockquote
-
-> ### This is a header level 3
->
-> - First item
-> - Second item.
->
->   _Italic_ and also **bold** are supported.
-
----
-
-{{< figure src="jessica-weiller-GAw5wFLVWVo-unsplash.jpg" title="Just chilling on my favorite tree in San Diego Zoo" width="100%" attr="https://unsplash.com/@jweiller?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">}}
-
-For more image processing methods, you can create your own shortcode. Check this [link](https://gohugo.io/content-management/image-processing/) to see what you can do.
-
----
-
-Ordered list:
-
-1. First item
-2. Second item
-3. Third item
-   1. Indented item
-   2. Indented item
-4. Fourth item
-
-Unordered lists:
-
-- First item
-- Second item
-- Third item
-  - Indented item
-  - Indented item
-- Fourth item
-
----
-
-This is an `inline code block`. See below for a multi-line code block with syntax highlighting.
-
-```python
-# Python syntax highlighting
-def it_is_true():
-    return True
-
-def it_is_false():
-    return False
-```
-
-```css
-/* CSS syntax highlighting */
-html {
-  text-align: left;
-}
-```
-
----
-
-| Column 1 | Column 2 |
-| :------- | :------- |
-| Cell 1,1 | Cell 1,2 |
-| Cell 2,1 | Cell 2,2 |
+This was a class project for CYPLAN 204c -
+Analytic and Research Methods for Planners: Introduction to GIS and City Planning at UC Berkeley.

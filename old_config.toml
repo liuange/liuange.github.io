@@ -1,0 +1,62 @@
+
+[params]
+  name = "Angela Liu"
+  description = "Data Science & Data Engineering"
+  initials = "AL"
+  googleAnalytics = ""
+
+  [[params.social]]
+    name = "Github"
+    link = "https://github.com/liuange"
+    icon = "fab fa-github"
+
+  [[params.social]]
+    name = "LinkedIn"
+    link = "https://linkedin.com/in/angelaliu015"
+    icon = "fab fa-linkedin-in"
+
+
+[menu]
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Resume"
+    url = "/resume/"
+    weight = 2
+  
+  [[menu.main]]
+    name = "Posts"
+    url = "/garden/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+
+[taxonomies]
+  garden_tags = 'garden_tags'
+  project_tags = 'project_tags'
+  library_tags = 'library_tags'
+
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.extensions]
+    definitionList = true
+    footnote = true
+    linkify = true
+    strikethrough = true
+    table = true
+    taskList = true
+    typographer = true
+  [markup.highlight]
+    # Choose from https://xyproto.github.io/splash/docs/all.html
+    style = 'monokailight'

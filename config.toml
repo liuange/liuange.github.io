@@ -5,6 +5,7 @@ languageCode = "en-US"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+enableEmoji = true
 
 [params]
   description = "Angela Liu | Data Engineer"

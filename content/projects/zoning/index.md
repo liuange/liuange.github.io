@@ -1,7 +1,7 @@
 ---
-title: "Automated Classification of Municipal Zoning Codes"
+title: "🚧 Using Natural Language Processing to Automate Zoning Code Classification"
 date: 2022-03-01
-draft: false
+draft: true
 project_tags: ["python", "nlp", "geospatial"]
 weight: 1
 links:

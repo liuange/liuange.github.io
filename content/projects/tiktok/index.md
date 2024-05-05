@@ -1,5 +1,5 @@
 ---
-title: "TikTok UnWrapped"
+title: "🎁 TikTok UnWrapped"
 date: 2022-04-28
 draft: false
 project_tags: ["data viz", "python", "tableau"]

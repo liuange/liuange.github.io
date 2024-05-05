@@ -1,5 +1,5 @@
 ---
-title: "Visualizing the Housing Crisis"
+title: "🏢 Visualizing the Housing Crisis"
 date: 2023-05-01
 draft: false
 project_tags: ["python", "nlp", "geospatial"]

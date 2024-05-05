@@ -1,5 +1,5 @@
 ---
-title: "Identifying Rental Properties in Richmond, CA"
+title: "🏘 Identifying Rental Properties in Richmond, CA"
 date: 2023-03-01
 draft: false
 project_tags: ["python", "pandas", "geospatial", "arcGIS"]

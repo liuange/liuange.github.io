@@ -34,7 +34,14 @@ enableEmoji = true
     title = "resume"
     url = "/resume/"
     weight = 20
-
+  
+  [[menu.main]]
+    identifier = "things i 💚"
+    name = "things i 💚"
+    title = "things i 💚"
+    url = "/things"
+    weight = 40
+  
   [[menu.main]]
     identifier = "github"
     name = "github"
